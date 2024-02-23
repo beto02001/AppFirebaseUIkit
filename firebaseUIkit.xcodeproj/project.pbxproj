@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89A91C9820DDA3FDA3BF52DA /* Pods_firebaseUIkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B9E9AD7EF5FD66495119D0 /* Pods_firebaseUIkit.framework */; };
 		9E63AF022B86B6CC007F3D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63AF012B86B6CC007F3D40 /* AppDelegate.swift */; };
 		9E63AF042B86B6CC007F3D40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63AF032B86B6CC007F3D40 /* SceneDelegate.swift */; };
 		9E63AF062B86B6CC007F3D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63AF052B86B6CC007F3D40 /* ViewController.swift */; };
@@ -26,9 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08B9E9AD7EF5FD66495119D0 /* Pods_firebaseUIkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseUIkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B5D403D431A29E82CECCB79 /* Pods-firebaseUIkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseUIkit.debug.xcconfig"; path = "Target Support Files/Pods-firebaseUIkit/Pods-firebaseUIkit.debug.xcconfig"; sourceTree = "<group>"; };
-		6B040CCBA170BDCE82DF71C2 /* Pods-firebaseUIkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseUIkit.release.xcconfig"; path = "Target Support Files/Pods-firebaseUIkit/Pods-firebaseUIkit.release.xcconfig"; sourceTree = "<group>"; };
 		9E63AEFE2B86B6CC007F3D40 /* firebaseUIkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseUIkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E63AF012B86B6CC007F3D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E63AF032B86B6CC007F3D40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A91C9820DDA3FDA3BF52DA /* Pods_firebaseUIkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,18 +58,8 @@
 		6C2275CD68A6F5907911D4F6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B5D403D431A29E82CECCB79 /* Pods-firebaseUIkit.debug.xcconfig */,
-				6B040CCBA170BDCE82DF71C2 /* Pods-firebaseUIkit.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		8A651B18692466B44F3A230F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				08B9E9AD7EF5FD66495119D0 /* Pods_firebaseUIkit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9E35AEE42B88747400AADE79 /* Repository */ = {
@@ -92,7 +77,6 @@
 				9E63AF002B86B6CC007F3D40 /* firebaseUIkit */,
 				9E63AEFF2B86B6CC007F3D40 /* Products */,
 				6C2275CD68A6F5907911D4F6 /* Pods */,
-				8A651B18692466B44F3A230F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,11 +141,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E63AF122B86B6CF007F3D40 /* Build configuration list for PBXNativeTarget "firebaseUIkit" */;
 			buildPhases = (
-				887FCBC507E054AFA6A40A22 /* [CP] Check Pods Manifest.lock */,
 				9E63AEFA2B86B6CC007F3D40 /* Sources */,
 				9E63AEFB2B86B6CC007F3D40 /* Frameworks */,
 				9E63AEFC2B86B6CC007F3D40 /* Resources */,
-				E28FE616D38D02332D9C8D66 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,48 +201,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		887FCBC507E054AFA6A40A22 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firebaseUIkit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E28FE616D38D02332D9C8D66 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firebaseUIkit/Pods-firebaseUIkit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firebaseUIkit/Pods-firebaseUIkit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebaseUIkit/Pods-firebaseUIkit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E63AEFA2B86B6CC007F3D40 /* Sources */ = {
@@ -423,7 +363,6 @@
 		};
 		9E63AF132B86B6CF007F3D40 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B5D403D431A29E82CECCB79 /* Pods-firebaseUIkit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,7 +392,6 @@
 		};
 		9E63AF142B86B6CF007F3D40 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B040CCBA170BDCE82DF71C2 /* Pods-firebaseUIkit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
