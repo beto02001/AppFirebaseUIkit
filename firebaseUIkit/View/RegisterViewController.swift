@@ -41,6 +41,4 @@ extension RegisterViewController: createAndSignInProtocol {
     func succesfulCreate() {
         coordinator?.navigateToUserLoginView(navigationController: self.navigationController, viewModel: self.autheticationViewModel ?? AuthenticationViewModel())
     }
-    
-    
 }
