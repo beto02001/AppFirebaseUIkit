@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F4B9FE73-4A02-4B0D-8352-5DDF3D772840"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "845394A3-41AD-4AFC-8AC2-B044DC25734A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "845394A3-41AD-4AFC-8AC2-B044DC25734A - d62c9927dc2884fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "firebaseUIkit.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "845394A3-41AD-4AFC-8AC2-B044DC25734A - d62c9927dc2884fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "firebaseUIkit.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0AC50EE1-E578-4B4E-84CF-75FE4EC3F132"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/View/UserLoged/UserLogedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "logoutSession()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0AC50EE1-E578-4B4E-84CF-75FE4EC3F132 - c43ca275be1515bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "firebaseUIkit.UserLogedViewController.logoutSession() -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/View/UserLoged/UserLogedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "0AC50EE1-E578-4B4E-84CF-75FE4EC3F132 - c43ca275be1515bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "firebaseUIkit.UserLogedViewController.logoutSession() -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/View/UserLoged/UserLogedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "464">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
