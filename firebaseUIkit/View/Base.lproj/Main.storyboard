@@ -51,6 +51,9 @@
                                         <buttonConfiguration key="configuration" style="filled" image="facemask" catalog="system" title="Entrar con Facebok">
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="signInFacebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Any-TJ-iad"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        autheticationViewModel.delegate = self
         if autheticationViewModel.user != nil {
             coordinator?.navigateToUserLoginView(navigationController: self.navigationController, viewModel: self.autheticationViewModel)
         }
@@ -35,5 +36,22 @@ class ViewController: UIViewController {
             coordinator?.navigateToRegisterView(navigationController: self.navigationController, viewModel: autheticationViewModel, segue: segue)
         }
     }
+    
+    @IBAction func signInFacebook(_ sender: UIButton) {
+        autheticationViewModel.loginUserFacebook()
+    }
+    
 }
 
+extension ViewController: createAndSignInProtocol {
+    func errorCreate(messageError: String, titleError: ErrorTitle) {
+        autheticationViewModel.showAlertErrorMessage(viewController: self, titleError: titleError, messageError: messageError)
+    }
+    
+    func succesfulCreate() {
+        coordinator?.navigateToUserLoginView(navigationController: self.navigationController, viewModel: self.autheticationViewModel)
+    }
+    
+    
+    
+}
