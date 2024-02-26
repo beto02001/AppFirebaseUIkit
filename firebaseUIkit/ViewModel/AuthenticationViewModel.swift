@@ -6,9 +6,15 @@
 //
 
 import Foundation
+import UIKit
+
+enum ErrorTitle: String {
+    case errorCreateTitle = "Error al crear usuario"
+    case errorSignInTitle = "Error al ingresar con usuario"
+}
 
 protocol createAndSignInProtocol: AnyObject {
-    func errorCreate(messageError: String)
+    func errorCreate(messageError: String, titleError: ErrorTitle)
     func succesfulCreate()
 }
 
@@ -42,7 +48,7 @@ final class AuthenticationViewModel {
                 self?.delegate?.succesfulCreate()
             case .failure(let error):
                 self?.messageError = error.localizedDescription
-                self?.delegate?.errorCreate(messageError: self?.messageError ?? "No se puedo encontrar el error")
+                self?.delegate?.errorCreate(messageError: self?.messageError ?? "No se puedo encontrar el error", titleError: .errorCreateTitle)
             }
         }
     }
@@ -55,7 +61,20 @@ final class AuthenticationViewModel {
                 self?.delegate?.succesfulCreate()
             case .failure(let error):
                 self?.messageError = error.localizedDescription
-                self?.delegate?.errorCreate(messageError: self?.messageError ?? "No se puedo encontrar el error")
+                self?.delegate?.errorCreate(messageError: self?.messageError ?? "No se puedo encontrar el error", titleError: .errorSignInTitle)
+            }
+        }
+    }
+    
+    func loginUserFacebook() {
+        authenticatorRepository.loginUserFacebook { [weak self] result in
+            switch result {
+            case .success(let user):
+                self?.user = user
+                self?.delegate?.succesfulCreate()
+            case .failure(let error):
+                self?.messageError = error.localizedDescription
+                self?.delegate?.errorCreate(messageError: self?.messageError ?? "No se puedo encontrar el error", titleError: .errorSignInTitle)
             }
         }
     }
@@ -68,5 +87,12 @@ final class AuthenticationViewModel {
             print("Hubo un error")
         }
         
+    }
+    
+    func showAlertErrorMessage(viewController: UIViewController, titleError: ErrorTitle, messageError: String) {
+        let alertController = UIAlertController(title: titleError.rawValue, message: messageError, preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "Cerrar", style: .cancel)
+        alertController.addAction(cancelAction)
+        viewController.present(alertController, animated: true, completion: nil)
     }
 }

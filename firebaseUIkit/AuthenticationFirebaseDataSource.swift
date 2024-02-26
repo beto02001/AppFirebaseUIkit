@@ -7,6 +7,7 @@
 
 import Foundation
 import FirebaseAuth
+import FacebookLogin
 
 struct User {
     let email: String
@@ -14,6 +15,7 @@ struct User {
 
 
 final class AuthenticationFirebaseDataSource {
+    private let facebookLAuthentication = FacebookAuthentication()
     
     func getCurrentUser() -> User? {
         guard let email = Auth.auth().currentUser?.email else { return .none }
@@ -45,7 +47,34 @@ final class AuthenticationFirebaseDataSource {
         }
     }
     
+    func loginUserFacebook(completionBlock: @escaping (Result<User, Error>) -> Void) {
+        facebookLAuthentication.loginFacebook { result in
+            switch result {
+            case .success(let accesToken):
+                let credential = FacebookAuthProvider.credential(withAccessToken: accesToken)
+                Auth.auth().signIn(with: credential) { authDataResult, error in
+                    if let error = error {
+                        print("Error crear un usuario: ", error.localizedDescription)
+                        completionBlock(.failure(error))
+                        return
+                    }
+                    let email = authDataResult?.user.email ?? "No email"
+                    print("user creado", email)
+                    completionBlock(.success(.init(email: email)))
+                }
+                
+            case .failure(let error):
+                print("Error signIn with facebook: ", error.localizedDescription)
+                completionBlock(.failure(error))
+                return
+            }
+        }
+    }
+    
+    
     func logout() throws {
         try Auth.auth().signOut()
     }
+    
+
 }

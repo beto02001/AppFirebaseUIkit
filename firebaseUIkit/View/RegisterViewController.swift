@@ -31,11 +31,8 @@ class RegisterViewController: UIViewController {
 }
 
 extension RegisterViewController: createAndSignInProtocol {
-    func errorCreate(messageError: String) {
-        let alertController = UIAlertController(title: "Erro al crear usuario", message: messageError, preferredStyle: .alert)
-        let cancelAction = UIAlertAction(title: "Cerrar", style: .cancel)
-        alertController.addAction(cancelAction)
-        self.present(alertController, animated: true, completion:nil)
+    func errorCreate(messageError: String, titleError: ErrorTitle) {
+        autheticationViewModel?.showAlertErrorMessage(viewController: self, titleError: titleError, messageError: messageError)
     }
     
     func succesfulCreate() {
