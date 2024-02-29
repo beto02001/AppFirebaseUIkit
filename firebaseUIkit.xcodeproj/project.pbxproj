@@ -25,8 +25,17 @@
 		9E63AF202B86FA7C007F3D40 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63AF1F2B86FA7C007F3D40 /* LoginViewController.swift */; };
 		9E63AF222B86FF0B007F3D40 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63AF212B86FF0B007F3D40 /* Coordinator.swift */; };
 		9EBC82C32B8CEE6200E4C985 /* FacebookAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC82C22B8CEE6200E4C985 /* FacebookAuthentication.swift */; };
+		9EBC82C62B8E4E3100E4C985 /* AuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC82C52B8E4E3100E4C985 /* AuthenticationModel.swift */; };
+		9EBC82CA2B8E52DA00E4C985 /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBC82C92B8E52DA00E4C985 /* FirebaseFirestore.framework */; };
+		9EBC82CE2B8E538500E4C985 /* FirebaseFirestoreInternal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBC82CD2B8E538500E4C985 /* FirebaseFirestoreInternal.framework */; };
+		9EBC82D22B8E907900E4C985 /* LinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC82D12B8E907900E4C985 /* LinkViewModel.swift */; };
+		9EBC82D62B8E90DC00E4C985 /* LinkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC82D52B8E90DC00E4C985 /* LinkRepository.swift */; };
+		9EBC82D82B8E90EF00E4C985 /* LinkDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC82D72B8E90EF00E4C985 /* LinkDatasource.swift */; };
+		9EBC82DC2B8E91B800E4C985 /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC82DB2B8E91B800E4C985 /* LinkModel.swift */; };
 		9ED850292B87A4CF001DE9A6 /* UserLoged.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED850282B87A4CF001DE9A6 /* UserLoged.storyboard */; };
 		9ED8502B2B87A4F0001DE9A6 /* UserLogedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED8502A2B87A4F0001DE9A6 /* UserLogedViewController.swift */; };
+		9EF35B122B8FE9B9009831B1 /* MetadataDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF35B112B8FE9B9009831B1 /* MetadataDatasource.swift */; };
+		9EF35B152B8FF7AA009831B1 /* BaseAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF35B142B8FF7AA009831B1 /* BaseAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +56,17 @@
 		9E63AF1F2B86FA7C007F3D40 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9E63AF212B86FF0B007F3D40 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		9EBC82C22B8CEE6200E4C985 /* FacebookAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAuthentication.swift; sourceTree = "<group>"; };
+		9EBC82C52B8E4E3100E4C985 /* AuthenticationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationModel.swift; sourceTree = "<group>"; };
+		9EBC82C92B8E52DA00E4C985 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBC82CD2B8E538500E4C985 /* FirebaseFirestoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBC82D12B8E907900E4C985 /* LinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewModel.swift; sourceTree = "<group>"; };
+		9EBC82D52B8E90DC00E4C985 /* LinkRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkRepository.swift; sourceTree = "<group>"; };
+		9EBC82D72B8E90EF00E4C985 /* LinkDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDatasource.swift; sourceTree = "<group>"; };
+		9EBC82DB2B8E91B800E4C985 /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
 		9ED850282B87A4CF001DE9A6 /* UserLoged.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserLoged.storyboard; sourceTree = "<group>"; };
 		9ED8502A2B87A4F0001DE9A6 /* UserLogedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogedViewController.swift; sourceTree = "<group>"; };
+		9EF35B112B8FE9B9009831B1 /* MetadataDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataDatasource.swift; sourceTree = "<group>"; };
+		9EF35B142B8FF7AA009831B1 /* BaseAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +76,10 @@
 			files = (
 				9E2AFCCB2B8C689F001ACB4D /* FacebookBasics in Frameworks */,
 				9E2AFCC92B8C689F001ACB4D /* FacebookAEM in Frameworks */,
+				9EBC82CE2B8E538500E4C985 /* FirebaseFirestoreInternal.framework in Frameworks */,
 				9E2AFCD12B8C689F001ACB4D /* FacebookLogin in Frameworks */,
 				9E2AFCCD2B8C689F001ACB4D /* FacebookCore in Frameworks */,
+				9EBC82CA2B8E52DA00E4C985 /* FirebaseFirestore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,7 @@
 				9E63AF172B86BDD5007F3D40 /* AuthenticationFirebaseDataSource.swift */,
 			);
 			name = Repository;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9E63AEF52B86B6CC007F3D40 = {
@@ -105,13 +126,12 @@
 			isa = PBXGroup;
 			children = (
 				9E63AF152B86B7D9007F3D40 /* GoogleService-Info.plist */,
-				9E63AF012B86B6CC007F3D40 /* AppDelegate.swift */,
 				9E63AF032B86B6CC007F3D40 /* SceneDelegate.swift */,
-				9ED8502C2B87A57F001DE9A6 /* View */,
-				9ED8502E2B87A652001DE9A6 /* ViewModel */,
-				9E35AEE42B88747400AADE79 /* Repository */,
+				9E63AF012B86B6CC007F3D40 /* AppDelegate.swift */,
 				9E63AF212B86FF0B007F3D40 /* Coordinator.swift */,
-				9E63AF0A2B86B6CF007F3D40 /* Assets.xcassets */,
+				9EBC82C82B8E4F1200E4C985 /* Authentication */,
+				9EBC82D02B8E904D00E4C985 /* Module Links */,
+				9EF35B132B8FF704009831B1 /* Helpers */,
 				9E63AF0C2B86B6CF007F3D40 /* LaunchScreen.storyboard */,
 				9E63AF0F2B86B6CF007F3D40 /* Info.plist */,
 			);
@@ -126,10 +146,73 @@
 			name = "Facebook Authentication";
 			sourceTree = "<group>";
 		};
-		9ED8502C2B87A57F001DE9A6 /* View */ = {
+		9EBC82C42B8E4E1000E4C985 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EBC82C52B8E4E3100E4C985 /* AuthenticationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9EBC82C82B8E4F1200E4C985 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				9E35AEE42B88747400AADE79 /* Repository */,
+				9EBC82C42B8E4E1000E4C985 /* Model */,
+				9ED8502C2B87A57F001DE9A6 /* View */,
+				9ED8502E2B87A652001DE9A6 /* ViewModel */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9EBC82D02B8E904D00E4C985 /* Module Links */ = {
+			isa = PBXGroup;
+			children = (
+				9EBC82D92B8E910B00E4C985 /* Model */,
+				9EBC82D32B8E908B00E4C985 /* View */,
+				9EBC82DA2B8E914A00E4C985 /* ViewModel */,
+				9EBC82D42B8E909B00E4C985 /* Repository */,
+			);
+			path = "Module Links";
+			sourceTree = "<group>";
+		};
+		9EBC82D32B8E908B00E4C985 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				9ED8502D2B87A62F001DE9A6 /* UserLoged */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9EBC82D42B8E909B00E4C985 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				9EBC82D52B8E90DC00E4C985 /* LinkRepository.swift */,
+				9EBC82D72B8E90EF00E4C985 /* LinkDatasource.swift */,
+				9EF35B112B8FE9B9009831B1 /* MetadataDatasource.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		9EBC82D92B8E910B00E4C985 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EBC82DB2B8E91B800E4C985 /* LinkModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9EBC82DA2B8E914A00E4C985 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9EBC82D12B8E907900E4C985 /* LinkViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9ED8502C2B87A57F001DE9A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				9E63AF072B86B6CC007F3D40 /* Main.storyboard */,
 				9E63AF052B86B6CC007F3D40 /* ViewController.swift */,
 				9E63AF1F2B86FA7C007F3D40 /* LoginViewController.swift */,
@@ -155,9 +238,20 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		9EF35B132B8FF704009831B1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9E63AF0A2B86B6CF007F3D40 /* Assets.xcassets */,
+				9EF35B142B8FF7AA009831B1 /* BaseAlert.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		9FF98BD255B6AE792109ADC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9EBC82CD2B8E538500E4C985 /* FirebaseFirestoreInternal.framework */,
+				9EBC82C92B8E52DA00E4C985 /* FirebaseFirestore.framework */,
 				9E2AFCC42B8C63D8001ACB4D /* FBSDKLoginKit.xcframework */,
 			);
 			name = Frameworks;
@@ -249,11 +343,18 @@
 				9E63AF062B86B6CC007F3D40 /* ViewController.swift in Sources */,
 				9E63AF1E2B86F9F0007F3D40 /* RegisterViewController.swift in Sources */,
 				9ED8502B2B87A4F0001DE9A6 /* UserLogedViewController.swift in Sources */,
+				9EBC82D22B8E907900E4C985 /* LinkViewModel.swift in Sources */,
 				9E63AF182B86BDD5007F3D40 /* AuthenticationFirebaseDataSource.swift in Sources */,
+				9EF35B122B8FE9B9009831B1 /* MetadataDatasource.swift in Sources */,
+				9EF35B152B8FF7AA009831B1 /* BaseAlert.swift in Sources */,
 				9E63AF202B86FA7C007F3D40 /* LoginViewController.swift in Sources */,
+				9EBC82D82B8E90EF00E4C985 /* LinkDatasource.swift in Sources */,
 				9E63AF022B86B6CC007F3D40 /* AppDelegate.swift in Sources */,
+				9EBC82DC2B8E91B800E4C985 /* LinkModel.swift in Sources */,
 				9E63AF1A2B86C2B6007F3D40 /* AuthenticationRepository.swift in Sources */,
 				9E63AF042B86B6CC007F3D40 /* SceneDelegate.swift in Sources */,
+				9EBC82C62B8E4E3100E4C985 /* AuthenticationModel.swift in Sources */,
+				9EBC82D62B8E90DC00E4C985 /* LinkRepository.swift in Sources */,
 				9E63AF222B86FF0B007F3D40 /* Coordinator.swift in Sources */,
 				9EBC82C32B8CEE6200E4C985 /* FacebookAuthentication.swift in Sources */,
 			);

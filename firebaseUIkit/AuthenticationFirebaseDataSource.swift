@@ -9,14 +9,12 @@ import Foundation
 import FirebaseAuth
 import FacebookLogin
 
-struct User {
-    let email: String
-}
-
-
 final class AuthenticationFirebaseDataSource {
     private let facebookLAuthentication = FacebookAuthentication()
     
+    //--------------------------------------------------------------------------
+    // MARK: Métodos para ingreso con correo electrónico
+    //--------------------------------------------------------------------------
     func getCurrentUser() -> User? {
         guard let email = Auth.auth().currentUser?.email else { return .none }
         return .init(email: email)
@@ -47,6 +45,9 @@ final class AuthenticationFirebaseDataSource {
         }
     }
     
+    //--------------------------------------------------------------------------
+    // MARK: Métodos para ingreso con correo electrónico
+    //--------------------------------------------------------------------------
     func loginUserFacebook(completionBlock: @escaping (Result<User, Error>) -> Void) {
         facebookLAuthentication.loginFacebook { result in
             switch result {
@@ -71,7 +72,9 @@ final class AuthenticationFirebaseDataSource {
         }
     }
     
-    
+    //--------------------------------------------------------------------------
+    // MARK: Métodos salid de sesión
+    //--------------------------------------------------------------------------
     func logout() throws {
         try Auth.auth().signOut()
     }

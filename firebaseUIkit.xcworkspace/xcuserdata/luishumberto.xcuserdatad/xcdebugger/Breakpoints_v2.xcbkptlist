@@ -84,5 +84,277 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AD64B0C-A580-42D7-9272-C561443FCC44"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/Module Links/ViewModel/LinkViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getAllLinks()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7AD64B0C-A580-42D7-9272-C561443FCC44 - 75453ec88c866190"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "firebaseUIkit.LinkViewModel.getAllLinks() -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/Module%20Links/ViewModel/LinkViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "7AD64B0C-A580-42D7-9272-C561443FCC44 - e8d6415bddade191"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;firebaseUIkit.LinkModel&gt;, Swift.Error&gt;) -&gt; () in firebaseUIkit.LinkViewModel.getAllLinks() -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/Module%20Links/ViewModel/LinkViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA3A0683-6068-4DA9-8DE3-56FEEFF3D4DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/Module Links/View/UserLoged/UserLogedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "successfulInfo(links:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EA3A0683-6068-4DA9-8DE3-56FEEFF3D4DD - 5bd3287bcf6ff255"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "firebaseUIkit.UserLogedViewController.successfulInfo(links: Swift.Array&lt;firebaseUIkit.LinkModel&gt;) -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/Module%20Links/View/UserLoged/UserLogedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "EA3A0683-6068-4DA9-8DE3-56FEEFF3D4DD - 5bd3287bcf6ff213"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "firebaseUIkit.UserLogedViewController.successfulInfo(links: Swift.Array&lt;firebaseUIkit.LinkModel&gt;) -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/Module%20Links/View/UserLoged/UserLogedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAF5BFE6-AA8A-4356-A995-92385033D8F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/Module Links/View/UserLoged/UserLogedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "saveLinkButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3314F19-F8EB-4B3F-9173-4437003AE60C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/Module Links/ViewModel/LinkViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "createNewLink(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B3314F19-F8EB-4B3F-9173-4437003AE60C - 69b78e6232e75a61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "firebaseUIkit.LinkViewModel.createNewLink(url: Swift.String) -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/Module%20Links/ViewModel/LinkViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "B3314F19-F8EB-4B3F-9173-4437003AE60C - cac3da018fdde04b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;firebaseUIkit.LinkModel, Swift.Error&gt;) -&gt; () in firebaseUIkit.LinkViewModel.createNewLink(url: Swift.String) -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/Module%20Links/ViewModel/LinkViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "650A87A6-FE02-43B8-8608-6FFD699CABF0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/Module Links/ViewModel/LinkViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "createNewLink(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C08FC3B9-2CE0-45D4-BF43-796E7B4188AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/Module Links/ViewModel/LinkViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "createNewLink(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D67937AC-9AED-4DDE-A3F7-F5D776C090B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/Module Links/Repository/LinkDatasource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "updateLink(link:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A632850-940D-4398-8655-AAC9AD78E678"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/Module Links/ViewModel/LinkViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "updateIsFavorited(link:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6A632850-940D-4398-8655-AAC9AD78E678 - 51d97256c7f8c09d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "firebaseUIkit.LinkViewModel.updateIsFavorited(link: firebaseUIkit.LinkModel) -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/Module%20Links/ViewModel/LinkViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "6A632850-940D-4398-8655-AAC9AD78E678 - 51d97256c7f8c09d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "firebaseUIkit.LinkViewModel.updateIsFavorited(link: firebaseUIkit.LinkModel) -&gt; ()"
+                  moduleName = "firebaseUIkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Desktop/firebaseUIkit/firebaseUIkit/Module%20Links/ViewModel/LinkViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37A6CBCE-97BA-4B23-9B3F-906B25F7AAA1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "firebaseUIkit/Module Links/View/UserLoged/UserLogedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "tableView(_:trailingSwipeActionsConfigurationForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
